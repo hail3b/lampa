@@ -8,6 +8,6 @@ services:
         domain: ${DOMAIN}
     container_name: lampa
     ports:
-      - "8080:80"
+      - "8081:80"
     restart: unless-stopped
     tty: true
