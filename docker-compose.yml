@@ -25,5 +25,5 @@ services:
         - './CACHE:/opt/ts/torrents'
         - './CONFIG:/opt/ts/config'
     ports:
-        - '5666:5665'
+        - '5665:5665'
     restart: unless-stopped
