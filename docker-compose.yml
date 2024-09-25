@@ -4,10 +4,10 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+      args:
+        domain: ${DOMAIN}
     container_name: lampa
     ports:
       - "8080:80"
     restart: unless-stopped
     tty: true
-    environment:
-      - domain='domain'
