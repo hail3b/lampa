@@ -10,4 +10,4 @@ services:
     restart: unless-stopped
     tty: true
     environment:
-      - domain=${domain}
+      - domain='domain'
